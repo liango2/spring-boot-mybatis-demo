@@ -1,5 +1,25 @@
 ## spring-boot+mybatis+freemarker 简单演示
 
+## 从数据源中查看datasource信息
+
+debug查看：数据库名叫： core
+
+变量名称： 
+
+![1568366539086](.\assets\1568366539086.png)
+
+url: userDao.h.sqlSession.sqlSessionFactory.configuration.environment.dataSource.jdbcUrl![]()
+
+![1568366739316](.\assets\1568366739316.png)
+
+![1568366785728](.\assets\1568366785728.png)
+
+对应的配置文件：
+
+![1568366619216](.\assets\1568366619216.png)
+
+
+
 ##运行
 ```bash
   $ mvn spring-boot:run
